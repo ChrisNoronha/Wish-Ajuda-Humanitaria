@@ -4,9 +4,10 @@ header {
     color: #f0f1ff;
     padding: 20px;
     display: flex;
-    justify-content: center; /* Centraliza horizontalmente */
+    justify-content: space-between;
     align-items: center;
 }
+
 
 .logo {
     font-size: 25px;
@@ -14,13 +15,16 @@ header {
     text-decoration: none;
     text-align: center;
     margin-right: 25px; 
-}
 
+    
+}
 .logoimage {
     font-size: 25px;
     color: #fff;
     text-decoration: none;
     margin-left: 25px; 
+
+
 }
 /* cabeçalho(fim) */
 
@@ -29,6 +33,7 @@ header {
     list-style-type: none;
     margin: 0;
     padding: 0;
+
 }
 
 .carousel {
@@ -36,8 +41,6 @@ header {
     position: relative;
     overflow: hidden;
     height: 70%;
-    display: flex; /* Adiciona flexbox */
-    justify-content: center; /* Centraliza o carrossel */
     align-items: center;
     margin-left: auto; 
     margin-right: auto; 
@@ -45,8 +48,12 @@ header {
     object-fit: cover;
 }
 
+
+
 .slide {
+
     display: none;
+
 }
 
 .slide img {
@@ -54,6 +61,7 @@ header {
     background-color: rgba(0, 0, 0, 0.5);
     height: auto;
     align-items: center;
+
 }
 
 .prev,
@@ -90,24 +98,23 @@ header {
     overflow: hidden;
     margin-left: auto; 
     margin-right: auto; 
-    display: flex; /* Adiciona flexbox */
-    justify-content: center; /* Centraliza a imagem */
 }
-/* carrossel(fim) */
+
+
+/* carousel(fim) */
 
 /* descrição, tópicos,titulos, containers(inicio) */
+
 .custom-title {
     color: #000000; 
     font-size: 36px; 
     font-weight: bold; 
-    text-align: center; /* Centraliza o título */
 }
 
 .custom-description {
     color: #000000; 
     font-size: 18px; 
     margin-top: 20px; 
-    text-align: center; /* Centraliza a descrição */
 }
 
 .adjustable-container {
@@ -117,50 +124,45 @@ header {
     margin-right: auto; 
     padding: 20px; 
     background: #f0f1ff;
-    text-align: center; /* Centraliza o texto */
+    text-align: justify;
 }
 /* descrição, tópicos,titulos, containers(fim) */
 
+
+
 /* Menu de navegação (início) */
 .topnav {
-    width: auto;
     display: flex; 
     justify-content: center; 
     align-items: center; 
     background-color: #070d3b;
     border-radius: 8px; 
-    margin: 0 auto; 
-    padding: 0; 
+    width: 100%;
+    max-width: 1200px; /* Limita a largura máxima */
+    margin: 0 auto;
+    overflow: hidden; /* Garante que o conteúdo não saia da borda arredondada */
 }
 
 .topnav a {
+    flex: 1; /* Cada link ocupará uma fração igual do espaço disponível */
     color: #f2f2f2; 
     text-align: center; 
-    padding: 14px 16px; 
+    padding: 14px 0; /* Remove o espaçamento horizontal para garantir a largura correta */
     text-decoration: none; 
     font-size: 17px;
     border-right: 1px solid #f2f2f2; 
     display: flex; 
+    justify-content: center; 
     align-items: center; 
     box-sizing: border-box; 
 }
 
-.topnav a::after {
-    content: ""; 
-    position: absolute;
-    top: 50%; 
-    right: 0; 
-    transform: translateY(-50%); 
-    height: 50%; 
-    border-right: 1px solid #f2f2f2; 
-}
-
 .topnav a:first-child {
-    border-left: 1px solid #f2f2f2; 
+    border-left: none; 
 }
 
-.topnav a:last-child::after {
-    border-right: none; 
+.topnav a:last-child {
+    border-right: none; /* Remove a borda direita do último item */
 }
 
 /* cor do link com os mouses */
@@ -173,29 +175,44 @@ header {
     background-color: #04AA6D;
     color: white;
 }
+
 /* Menu de navegação (fim) */
 
+
+
+
+
+
+
+
+
 /* textos(inicio) */
+
 .gradient-text {
     background: linear-gradient(to right, #1a471a 40%, #f20202 60%, #a89d00 40%); 
     -webkit-background-clip: text; 
     color: transparent; 
-    text-align: center; /* Centraliza o texto com gradiente */
 }
+
 /* textos(fim) */
 
 /* rodapé(inicio) */
+
+
+
 .footer {
     background-color: #070d3b;
     color: #f0f1ff;
     padding: 20px 0;
     text-align: center;
+
 }
 /* rodapé(fim) */
 
 /* website configurações gerais(inicio) */
 .backgroundsite{
     background-color: #070d3b;
+  
 }
 
 .custom-link {
@@ -203,6 +220,7 @@ header {
     font-size: 18px; 
     margin-top: 20px; 
     font-weight: bold; 
-    text-align: center; /* Centraliza os links */
 }
+
 /* website configurações gerais(fim) */
+
