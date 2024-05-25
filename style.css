@@ -33,15 +33,19 @@ header {
 }
 
 .carousel {
-    width: 115%;
+    width: auto;
     position: relative;
     overflow: hidden;
     height: auto;
     align-items: center;
+    margin-left: auto; 
+    margin-right: auto; 
+    background-size: cover;
+    object-fit: cover;
 }
 
 .carousel2 {
-    width: 100%;
+    width: auto;
     position: relative;
     overflow: hidden;
     margin-left: auto; 
@@ -55,7 +59,7 @@ header {
 }
 
 .slide img {
-    width: 90%;
+    width: auto;
     background-color: rgba(0, 0, 0, 0.5);
     height: auto;
     align-items: center;
@@ -114,7 +118,7 @@ header {
 }
 
 .adjustable-container {
-    max-width: 10000px; 
+    max-width: auto; 
     margin-left: auto; 
     margin-right: auto; 
     padding: 20px; 
