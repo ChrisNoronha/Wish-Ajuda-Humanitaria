@@ -128,25 +128,11 @@ header {
 
 
 
-
-/* rodapé(inicio) */
-
-
-
-.footer {
-    background-color: #070d3b;
-    color: #f0f1ff;
-    padding: 20px 0;
-    text-align: center;
-
-}
-/* rodapé(fim) */
-
-
 /* Menu de navegação (início) */
 .topnav {
     display: flex; 
-    justify-content: justify; 
+    justify-content: center; 
+    align-items: center; /* Alinha o texto verticalmente no centro */
     background-color: #070d3b;
     border: 2px solid #c5c5f7; 
     border-radius: 8px; 
@@ -161,15 +147,12 @@ header {
     text-decoration: none; 
     font-size: 17px;
     border-left: 1px solid #f2f2f2; /* Adiciona borda à esquerda de cada link */
+    display: flex; /* Usa flexbox para alinhar o conteúdo do link */
+    align-items: center; /* Alinha o texto verticalmente no centro */
 }
 
 .topnav a:first-child {
-    color: #f2f2f2; 
-    text-align: center; 
-    padding: 14px 16px; 
-    text-decoration: none; 
-    font-size: 17px;
-    border-left: 1px solid #070d3b; /* Adiciona borda à esquerda de cada link */
+    border-left: none; /* Remove a borda esquerda do primeiro link */
 }
 
 /* cor do link com os mouses */
@@ -189,6 +172,7 @@ header {
 
 
 
+
 /* textos(inicio) */
 
 .gradient-text {
@@ -199,6 +183,18 @@ header {
 
 /* textos(fim) */
 
+/* rodapé(inicio) */
+
+
+
+.footer {
+    background-color: #070d3b;
+    color: #f0f1ff;
+    padding: 20px 0;
+    text-align: center;
+
+}
+/* rodapé(fim) */
 
 /* website configurações gerais(inicio) */
 .backgroundsite{
