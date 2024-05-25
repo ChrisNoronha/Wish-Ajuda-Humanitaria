@@ -138,18 +138,18 @@ header {
     background-color: #070d3b;
     border-radius: 8px; 
     width: 100%;
-    max-width: 1200px; /* Limita a largura máxima */
+    max-width: 1200px; 
     margin: 0 auto;
-    overflow: hidden; /* Garante que o conteúdo não saia da borda arredondada */
+    overflow: hidden; 
 }
 
 .topnav a {
-    flex: 1; /* Cada link ocupará uma fração igual do espaço disponível */
+    flex: 1; 
     color: #f2f2f2; 
     text-align: center; 
-    padding: 14px 0; /* Remove o espaçamento horizontal para garantir a largura correta */
+    padding: 14px 0; 
     text-decoration: none; 
-    font-size: 17px;
+    font-size: 15px;
     border-right: 1px solid #f2f2f2; 
     display: flex; 
     justify-content: center; 
@@ -162,7 +162,7 @@ header {
 }
 
 .topnav a:last-child {
-    border-right: none; /* Remove a borda direita do último item */
+    border-right: none; 
 }
 
 /* cor do link com os mouses */
