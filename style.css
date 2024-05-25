@@ -37,7 +37,7 @@ header {
 }
 
 .carousel {
-    width: 100%;
+    width: auto;
     position: relative;
     overflow: hidden;
     height: 70%;
@@ -92,6 +92,7 @@ header {
 
 .full-width-image {
     width: 100%;
+    max-width: auto; 
     height:80%;
     position: relative;
     overflow: hidden;
@@ -117,6 +118,7 @@ header {
 }
 
 .adjustable-container {
+    width: auto;
     max-width: 100%; 
     margin-left: auto; 
     margin-right: auto; 
@@ -130,6 +132,7 @@ header {
 
 /* Menu de navegação (início) */
 .topnav {
+    width: auto;
     display: flex; 
     justify-content: center; 
     align-items: center; /* Alinha o texto verticalmente no centro */
@@ -137,7 +140,7 @@ header {
     border: 2px solid #c5c5f7; 
     border-radius: 8px; 
     margin: 0 auto; 
-    width: fit-content; 
+
 }
 
 .topnav a {
