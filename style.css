@@ -108,8 +108,9 @@ header {
 /* descrição, tópicos,titulos, containers(inicio) */
 
 .custom-title {
+    font-family:yanone kaffeesatz;
     color: #000000; 
-    font-size: 36px; 
+    font-size: 40px; 
     font-weight: bold; 
 }
 
@@ -193,6 +194,8 @@ header {
 /* textos(inicio) */
 
 .gradient-text {
+    font-family:yanone kaffeesatz;
+    font-size: 50px;
     background: linear-gradient(to right, #1a471a 40%, #f20202 60%, #a89d00 40%); 
     -webkit-background-clip: text; 
     color: transparent; 
