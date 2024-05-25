@@ -4,51 +4,78 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Minha Página Inicial</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
     <style>
-        /* Estilo para o cabeçalho */
-        header {
-            background-color: #0074d9;
-            color: #fff;
-            padding: 20px;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
 
-        .logo {
-            font-size: 24px;
-            font-weight: bold;
-            text-decoration: none;
-            color: #fff;
-        }
-
-        .nav {
-            display: flex;
-        }
-
-        .nav a {
-            margin-right: 20px;
-            text-decoration: none;
-            color: #fff;
-        }
-
-        /* Estilo para o conteúdo principal */
-        .carousel {
-            /* Adicione aqui o estilo para o carrossel de imagens */
-        }
     </style>
 </head>
 <body>
     <header>
-        <a href="#" class="logo">WISH</a>
+        <a href="#" class="logo"><img src="imagens/logowish.png" alt="Wish Logo" style="max-width: 20%; height: auto;"></a>
         <nav class="nav">
-            <a href="login.html">Login</a>
-            <a href="register.html">Register</a>
+            <a href="https://www.estado.rs.gov.br/midia/imagem/qrcode-sos-rio-grande-do-sul-maio24-png" class="logo">AJUDE AGORA!</a>
         </nav>
     </header>
 
     <div class="carousel">
-        <!-- Adicione aqui o código para o carrossel de imagens -->
+        <div class="slide">
+            <img src="imagens/carousel1/imagem1.jpg" alt="Imagem 1">
+        </div>
+        <div class="slide">
+            <img src="imagens/carousel1/imagem2.jpg" alt="Imagem 2">
+        </div>
+        <div class="slide">
+            <img src="imagens/carousel1/imagem3.jpg" alt="Imagem 3">
+        </div>
     </div>
+
+    <div class="adjustable-container">
+        <div class="row justify-content-center">
+            <div class="col-md-8 text-center custom-col">
+                <h2 class="custom-title">O Rio Grande do Sul precisa da sua ajuda!</h2>
+                <p class="custom-description">Você mora próximo às cidades afetadas?
+                    Você pode se voluntariar pela Coordenadoria Estadual de Proteção e Defesa Civil do Rio Grande do Sul. Os voluntários atuam em tarefas de organização, seleção e triagem das doações de ajuda humanitária.
+</p>
+                <br>
+                <p class="custom-description">
+                    O projeto <a href="https://www.uol.com.br/ecoa/ultimas-noticias/2024/05/08/como-ser-voluntario-voluntariado-rs-rio-grande-do-sul.htm" class="custom-link">Meu Lar de Volta</a> busca voluntários para ajudar na retomada da dignidade das pessoas, conectando quem precisa de ajuda com quem pode oferecer suporte nas áreas onde a água já baixou.
+                </p>
+
+            </div>
+        </div>
+    </div>
+    <div class="adjustable-container">
+        <div class="row justify-content-center">
+            <div class="col-md-8 text-center custom-col">
+                <h2 class="custom-title">Você também pode ajudar a distância!</h2>
+                <p class="custom-description">Se você não está no Rio Grande do Sul, ainda pode ajudar de forma remota. Existem <a href="https://docs.google.com/document/d/1RIxXUGkTZvaN0ruDp4FYP51KtoqyshqVTox2iXUUcMg/edit?pli=1" class="custom-link">grupos de voluntários</a>  que trabalham pelo computador ou celular, atualizando informações, confirmando resgates e colaborando com quem está no local.
+    </p>
+                <br>
+                <p class="custom-description">
+                    Os <a href="https://blog.correios.com.br/2024/05/16/doacoes-ao-rs-confira-novas-orientacoes-e-saiba-como-ajudar/" class="custom-link">Correios </a>estão recebendo doações de água, alimentos da cesta básica, ração para pets, material de limpeza seco e itens de higiene pessoal.</p><br>
+                <p class="custom-description">
+                    Você pode entregar suas doações em qualquer uma das mais de 10 mil agências dos Correios no Brasil. As peças serão transportadas gratuitamente para a Defesa Civil no Rio Grande do Sul.
+                </p>
+
+            </div>
+        </div>
+    </div>
+    
+
+        <img src="imagens/carousel2/doacaors.jpg" alt="Imagem 1" class="full-width-image">
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-8 text-center">
+                    <p>© 2024 Wish. Todos os direitos reservados.</p>
+                    <p>Desenvolvido por Christian Noronha Picoli</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
