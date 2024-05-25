@@ -12,9 +12,17 @@ header {
 .logo {
     font-size: 25px;
     color: #fff;
-    text-decoration: none; 
+    text-decoration: none;
+    text-align: center;
+    
 }
+.logoimage {
+    font-size: 25px;
+    color: #fff;
+    text-decoration: none;
 
+
+}
 .nav { 
     list-style-type: none;
     margin: 0;
@@ -22,12 +30,11 @@ header {
 }
 
 .carousel {
-    width: 100%;
+    width: 115%;
     position: relative;
     overflow: hidden;
-    margin-left: auto; 
-    margin-right: auto; 
-    
+    height: auto;
+    align-items: center;
 }
 
 .carousel2 {
@@ -45,8 +52,10 @@ header {
 }
 
 .slide img {
-    width: 100%;
+    width: 90%;
+    background-color: rgba(0, 0, 0, 0.5);
     height: auto;
+    align-items: center;
 
 }
 
@@ -117,4 +126,10 @@ header {
     color: #f0f1ff;
     padding: 20px 0;
     text-align: center;
+}
+
+.gradient-text {
+    background: linear-gradient(to right, #1a471a 35%, #f20202 60%, #a89d00 40%); /* Define o degradê de três cores com sobreposição */
+    -webkit-background-clip: text; /* Aplica o degradê ao texto */
+    color: transparent; /* Torna o texto transparente para que o degradê seja visível */
 }
