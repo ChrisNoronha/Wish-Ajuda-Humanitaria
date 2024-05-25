@@ -154,6 +154,16 @@ header {
     box-sizing: 200%; 
 }
 
+.topnav a::after {
+    content: ""; /* Necessário para criar um pseudo-elemento */
+    position: absolute;
+    top: 100%; /* Centraliza verticalmente */
+    right: 0; /* Alinha à direita */
+    transform: translateY(-50%); /* Centraliza verticalmente */
+    height: 200%; /* Ajusta a altura da borda */
+    border-right: 1px solid #f2f2f2; /* Define a borda direita */
+}
+
 .topnav a:first-child {
     border-left: 1px solid #f2f2f2; 
 }
