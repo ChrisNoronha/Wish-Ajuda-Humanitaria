@@ -158,6 +158,10 @@ header {
     border-left: 1px solid #f2f2f2; 
 }
 
+.topnav a:last-child {
+    border-left: none; 
+}
+
 
 
 /* cor do link com os mouses */
