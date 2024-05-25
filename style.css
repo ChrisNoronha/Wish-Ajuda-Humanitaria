@@ -137,7 +137,7 @@ header {
     justify-content: center; 
     align-items: center; /* Alinha o texto verticalmente no centro */
     background-color: #070d3b;
-    border: 2px solid #c5c5f7; 
+    border-right: 1px solid #c5c5f7; 
     border-radius: 8px; 
     margin: 0 auto; 
 
@@ -155,14 +155,14 @@ header {
 }
 
 .topnav a:first-child {
-    border-left: none; /* Remove a borda esquerda do primeiro link */
+    border-left: none; 
 }
 
 /* cor do link com os mouses */
 .topnav a:hover {
     background-color: #ddd;
     color: black;
-    border-left: 1px solid #070d3b; /* Ajusta a cor da borda ao passar o mouse */
+    border-left: 1px solid #f2f2f2; /* Ajusta a cor da borda ao passar o mouse */
 }
 
 .topnav a.active {
