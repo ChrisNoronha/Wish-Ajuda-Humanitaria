@@ -1,3 +1,4 @@
+//funções responsáveis pelo carrossel
 let slideIndex = 0;
 showSlides();
 
@@ -16,7 +17,16 @@ function showSlides() {
   slides[slideIndex].style.display = "block";
 }
 
-// Adicionando a função para trocar de slide automaticamente a cada 8 segundos
 setInterval(function() {
-  plusSlides(1); // Chama a função plusSlides com o argumento 1 para avançar o slide
-}, 8000); // 8000 milissegundos = 8 segundos
+  plusSlides(1); 
+}, 8000); //8 segundos para troca de slides
+
+//funções responsáveis pelo carrossel(fim)
+
+//função responsável pelo botão de copiar
+function copyToClipboard() {
+    const textToCopy = document.getElementById("myText").innerText;
+    navigator.clipboard.writeText(textToCopy);
+    alert("Dados da doação copiados: " + textToCopy);
+}
+//função responsável pelo botão de copiar(fim)
