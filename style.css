@@ -14,12 +14,15 @@ header {
     color: #fff;
     text-decoration: none;
     text-align: center;
+    margin-right: 25px; 
+
     
 }
 .logoimage {
     font-size: 25px;
     color: #fff;
     text-decoration: none;
+    margin-left: 25px; 
 
 
 }
@@ -37,7 +40,7 @@ header {
     width: 100%;
     position: relative;
     overflow: hidden;
-    height: 80%;
+    height: 70%;
     align-items: center;
     margin-left: auto; 
     margin-right: auto; 
@@ -140,37 +143,51 @@ header {
 /* rodapé(fim) */
 
 
-/* Menu de navegação(inicio) */
+/* Menu de navegação (início) */
 .topnav {
     display: flex; 
-    justify-content: center; 
+    justify-content: justify; 
     background-color: #070d3b;
+    border: 2px solid #c5c5f7; 
+    border-radius: 8px; 
+    margin: 0 auto; 
+    width: fit-content; 
 }
-
 
 .topnav a {
     color: #f2f2f2; 
     text-align: center; 
     padding: 14px 16px; 
     text-decoration: none; 
-    font-size: 17px; 
-
+    font-size: 17px;
+    border-left: 1px solid #f2f2f2; /* Adiciona borda à esquerda de cada link */
 }
 
+.topnav a:first-child {
+    color: #f2f2f2; 
+    text-align: center; 
+    padding: 14px 16px; 
+    text-decoration: none; 
+    font-size: 17px;
+    border-left: 1px solid #070d3b; /* Adiciona borda à esquerda de cada link */
+}
 
 /* cor do link com os mouses */
 .topnav a:hover {
     background-color: #ddd;
     color: black;
+    border-left: 1px solid #070d3b; /* Ajusta a cor da borda ao passar o mouse */
 }
 
-/* link ativo */
 .topnav a.active {
     background-color: #04AA6D;
     color: white;
+    border-left: 1px solid #070d3b; /* Ajusta a cor da borda para o link ativo */
 }
 
-/* Menu de navegação(fim) */
+/* Menu de navegação (fim) */
+
+
 
 /* textos(inicio) */
 
@@ -185,7 +202,7 @@ header {
 
 /* website configurações gerais(inicio) */
 .backgroundsite{
-    background-color: #f2f2f2;
+    background-color: #070d3b;
   
 }
 
