@@ -160,6 +160,7 @@ header {
 
 .topnav a:last-child {
     border-right: none; 
+    border-left: none;
 }
 
 /* cor do link com os mouses */
