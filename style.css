@@ -1,6 +1,6 @@
 /* cabeçalho(inicio) */
 header {
-    background: #9db18c;
+    background: #88ab69;
     color: #f0fff2;
     padding: 20px;
     display: flex;
@@ -105,6 +105,7 @@ header {
 
 /* carousel(fim) */
 
+
 /* descrição, tópicos,titulos, containers(inicio) */
 
 .custom-title {
@@ -114,10 +115,19 @@ header {
     font-weight: bold; 
 }
 
+.custom-subtitle {
+    font-family:Open Sans;
+    color: #000000; 
+    font-size: 30px; 
+    font-weight: bold; 
+}
+
 .custom-description {
     color: #000000; 
     font-size: 18px; 
     margin-top: 20px; 
+    text-align: justify;
+
 }
 
 .adjustable-container {
@@ -128,6 +138,18 @@ header {
     padding: 20px; 
     background: #f0fff2;
     text-align: justify;
+    height: auto;
+}
+
+.adjustable-container2 {
+    width: auto;
+    max-width: 100%; 
+    margin-left: auto; 
+    margin-right: auto; 
+    padding: 20px; 
+    background: #f0fff2;
+    text-align: justify;
+    height: 430px;
 }
 /* descrição, tópicos,titulos, containers(fim) */
 
@@ -138,7 +160,7 @@ header {
     display: flex; 
     justify-content: center; 
     align-items: center; 
-    background-color: #9db18c;
+    background-color: #88ab69;
     border-radius: 8px; 
     width: 100%;
     max-width: 1200px; 
@@ -208,7 +230,7 @@ header {
 
 
 .footer {
-    background-color: #9db18c;
+    background-color: #88ab69;
     color: #f0f1ff;
     padding: 20px 0;
     text-align: center;
@@ -218,7 +240,7 @@ header {
 
 /* website configurações gerais(inicio) */
 .backgroundsite{
-    background-color: #9db18c;
+    background-color: #88ab69;
   
 }
 
@@ -230,4 +252,35 @@ header {
 }
 
 /* website configurações gerais(fim) */
+
+/* numero interativo */
+@property --num {
+  syntax: "<integer>";
+  initial-value: 1941;
+  inherits: false;
+}
+
+number {
+  transition: --num 5s;
+  counter-set: num var(--num);
+  font: 800 40px system-ui;
+}
+number::after {
+  content: counter(num);
+}
+number:hover {
+  --num: 2024;
+}
+
+/* numero interativo(fim) */
+
+
+/* Estilos para centralizar o player do YouTube */
+#player-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
 
