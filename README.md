@@ -9,7 +9,7 @@ Doações Online: Os usuários podem fazer doações online para apoiar as víti
 ## Uso
 - Execute `npm start` para iniciar o servidor.
 - Acesse `http://localhost:3000` no seu navegador.
-- Alternativamente, acesse o link `https://main--incredible-sprinkles-54b3b5.netlify.app/`
+- Alternativamente, acesse o link https://main--wishajudeors.netlify.app
   
 # Como Contribuir
 Faça um fork deste repositório.
