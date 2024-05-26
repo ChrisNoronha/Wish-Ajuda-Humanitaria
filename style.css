@@ -151,6 +151,17 @@ header {
     text-align: justify;
     height: 430px;
 }
+
+.adjustable-container3 {
+    width: auto;
+    max-width: 100%; 
+    margin-left: auto; 
+    margin-right: auto; 
+    padding: 20px; 
+    background: #f0fff2;
+    text-align: justify;
+    height: 50px;
+}
 /* descrição, tópicos,titulos, containers(fim) */
 
 
