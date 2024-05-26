@@ -50,13 +50,10 @@ header {
     object-fit: cover;
 }
 
-
-
 .slide {
-
     display: none;
-
 }
+
 
 .slide img {
     width: 100%;
@@ -300,12 +297,6 @@ number:hover {
 #player {
     width: 100%; 
     height: 100%; 
-
-
-.carousel {
-    position: relative;
-    width: 100%;
-    overflow: hidden;
 }
 
 .slide {
