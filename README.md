@@ -3,10 +3,16 @@ O projeto Wish Ajuda Humanitária tem como objetivo fornecer assistência humani
 
 # Funcionalidades
 Localização de Centros de Distribuição: O aplicativo permite que os usuários encontrem centros de distribuição de alimentos, roupas e outros itens essenciais nas áreas afetadas.
-Cadastro de Voluntários: Os voluntários podem se cadastrar no aplicativo para oferecer ajuda e participar de ações humanitárias.
 Doações Online: Os usuários podem fazer doações online para apoiar as vítimas das enchentes.
 
+No menu de navegação, é possível acessar as principais páginas.
+`Index:` Reúne as principais informações de como ajudar.
+`Entenda:` Reúne algumas informações básicas sobre o que está acontecendo no Rio Grande do Sul assim como um vídeo explicativo.
+`Depoimentos:` Reúne alguns depoimentos de pessoas que precisam de ajuda.
+`Duvidas:` Reúne algumas perguntas e repostas pertinentes.
+
 ## Uso
+- Clone ou faça download do repositório.
 - Execute `npm start` para iniciar o servidor.
 - Acesse `http://localhost:3000` no seu navegador.
 - Alternativamente, acesse o link https://main--wishajudeors.netlify.app
