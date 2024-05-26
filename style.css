@@ -42,7 +42,7 @@ header {
     width: auto;
     position: relative;
     overflow: hidden;
-    height: 70%;
+    height: 50%;
     align-items: center;
     margin-left: auto; 
     margin-right: auto; 
@@ -95,7 +95,7 @@ header {
 .full-width-image {
     width: 100%;
     max-width: auto; 
-    height:80%;
+    height:50%;
     position: relative;
     overflow: hidden;
     margin-left: auto; 
