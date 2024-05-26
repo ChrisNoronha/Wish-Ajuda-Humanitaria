@@ -295,3 +295,27 @@ number:hover {
 }
 
 
+.carousel {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.slide {
+    width: 100%;
+    display: none;
+}
+
+.active {
+    display: block;
+}
+
+.carousel img {
+    width: 100%;
+    height: auto;
+}
+
+#copyButton {
+    display: block;
+    margin: 0 auto; /* Isso centraliza o botão horizontalmente */
+}

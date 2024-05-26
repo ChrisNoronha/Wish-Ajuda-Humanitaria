@@ -22,6 +22,11 @@ setInterval(function() {
 }, 8000); // Change slide every 8 seconds
 //funções responsáveis pelo carrossel(fim)
 
+setInterval(function() {
+    showNextSlide('carousel3');
+}, 8000); // Change slide every 8 seconds
+//funções responsáveis pelo carrossel(fim)
+
 //função responsável pelo botão de copiar
 function copyToClipboard() {
     const textToCopy = document.getElementById("myText").innerText;
@@ -53,3 +58,4 @@ function copyToClipboard() {
             }
         });
     }
+
