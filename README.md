@@ -31,7 +31,7 @@ HTML, CSS e JavaScript
 Frameworks como Bootstrap para estilização
 
 ## Licença
-Este projeto está sob a licença MIT. Veja o arquivo LICENSE para mais detalhes.
+Este projeto está disponível para uso de todos, desde que seja creditado o autor.
 
 # Contato
 Se você tiver alguma dúvida ou quiser colaborar, entre em contato comigo pelo email: nchristianpicoli@gmail.com.
